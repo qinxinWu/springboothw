@@ -22,4 +22,10 @@ public class HelloController {
     public String world(){
         return "World!";
     }
+
+    @ResponseBody
+    @RequestMapping("/nono")
+    public String nono(){
+        return "nono!";
+    }
 }
