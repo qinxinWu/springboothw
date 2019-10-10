@@ -28,6 +28,12 @@ public class HelloController {
     public String haha(){
         return "haha!";
     }
+
+    @ResponseBody
+    @RequestMapping("/niubi")
+    public String niubi(){
+        return "niubi!";
+    }
     
 
 }
