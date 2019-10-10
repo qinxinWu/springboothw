@@ -23,9 +23,4 @@ public class HelloController {
         return "World!";
     }
 
-    @ResponseBody
-    @RequestMapping("/nono")
-    public String nono(){
-        return "nono!";
-    }
 }
