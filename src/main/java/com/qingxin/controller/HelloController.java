@@ -22,5 +22,11 @@ public class HelloController {
     public String world(){
         return "World!";
     }
+    @ResponseBody
+    @RequestMapping("/haha")
+    public String haha(){
+        return "haha!";
+    }
+    
 
 }
